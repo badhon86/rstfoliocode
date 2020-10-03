@@ -5,15 +5,22 @@
     <!-- Hero End -->
     <!--? Gallery Area Start -->
     <section class="gallery-area about2 section-padding30 fix">
+        @foreach ($gsData as $Data)
         <div class="container-fluid p-0">
             <div class="row no-gutters">
                 <div class="col-xl-5 col-lg-4 col-md-6 col-sm-6">
                     <div class="gallery-box">
                         <div class="single-gallery">
-                            <div class="gallery-img" style="background-image: url(assets/img/gallery/gallery1.png);"></div>
+
+
+                                <div class="gallery-img" style="background-image: url({{$Data->image}})";></div>
+
+
                             <div class="cap-icon">
-                                <a href="assets/img/gallery/gallery1.png" class="ti-fullscreen img-pop-up"></a>
-                            </div>
+                                <a href="{{$Data->image}}" class="ti-fullscreen img-pop-up"></a>
+
+                                </div>
+
                             <div class="g-caption">
                                 <h4>The Last man</h4>
                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
@@ -49,6 +56,8 @@
                         </div>
                     </div>
                 </div>
+
+
                 <div class="col-xl-5 col-lg-4 col-md-6 col-sm-6">
                     <div class="gallery-box">
                         <div class="single-gallery">
@@ -99,6 +108,7 @@
                     </div>
                 </div>
             </div>
+            @endforeach
         </div>
     </section>
     <!-- Gallery Area End -->

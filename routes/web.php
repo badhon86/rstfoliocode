@@ -35,6 +35,9 @@ Route::get('/gallery', [
     'as'   => '/gallery'
 ]);
 
+// Route::get('/gallery', "ImageController@index");
+
+
 Route::get('/contact', [
     'uses' => 'RSTController@contact',
     'as'   => '/contact'

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class RSTController extends Controller
 {
@@ -18,9 +19,16 @@ class RSTController extends Controller
         return view ('assets.about');
     }
 
-    public function gallery(){
-        return view ('assets.gallery');
+    public function gallery()
+    {
+
+       // return view ('assets.gallery');
+
+        $gsData = DB::table('gallery')->get();
+        return view ('assets.gallery', compact('gsData'));
     }
+
+
 
     public function contact(){
         return view ('assets.contact');
