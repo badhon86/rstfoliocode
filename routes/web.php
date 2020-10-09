@@ -37,12 +37,12 @@ Route::get('/gallery', [
 
 // Route::get('/gallery', "ImageController@index");
 
+Route::get('/contact', function () {
+    return view('assets.contact');
+});
 
-Route::get('/contact', [
-    'uses' => 'RSTController@contact',
-    'as'   => '/contact'
-]);
+// Route::resource('assets' , 'ContactController');
 
 // Route::post('/contact', 'MessageController@store')->name('contact');
 
-
+Route::post('/contacts', 'ContactController@store')->name('contact');

@@ -30,7 +30,7 @@ class RSTController extends Controller
 
 
 
-    public function contact(){
-        return view ('assets.contact');
-    }
+    // public function contact(){
+    //     return view ('assets.contact');
+    // }
 }

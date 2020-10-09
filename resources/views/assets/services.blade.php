@@ -39,7 +39,7 @@
                             <img src="assets/img/gallery/blog02.png" alt="">
                         </div>
                         <div class="team-caption">
-                            <h3><a href="services.html">Wedding Photography</a></h3>
+                            <h3><a href="{{asset('/services')}}">Wedding Photography</a></h3>
                             <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
                         </div>
                     </div>
@@ -50,7 +50,7 @@
                             <img src="assets/img/gallery/blog03.png" alt="">
                         </div>
                         <div class="team-caption">
-                            <h3><a href="services.html">Nature Photography</a></h3>
+                            <h3><a href="{{asset('/services')}}">Nature Photography</a></h3>
                             <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
                         </div>
                     </div>
@@ -58,10 +58,10 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                     <div class="single-team mb-60">
                         <div class="team-img">
-                            <img src="assets/img/gallery/blog03.png" alt="">
+                            <img src="assets/img/gallery/blog3.png" alt="">
                         </div>
                         <div class="team-caption">
-                            <h3><a href="services.html">Nature Photography</a></h3>
+                            <h3><a href="{{asset('/services')}}">Nature Photography</a></h3>
                             <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
                         </div>
                     </div>
@@ -69,10 +69,10 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                     <div class="single-team mb-60">
                         <div class="team-img">
-                            <img src="assets/img/gallery/blog02.png" alt="">
+                            <img src="assets/img/gallery/blog2.png" alt="">
                         </div>
                         <div class="team-caption">
-                            <h3><a href="services.html">Wedding Photography</a></h3>
+                            <h3><a href="{{asset('/services')}}">Wedding Photography</a></h3>
                             <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
                         </div>
                     </div>
@@ -80,10 +80,10 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                     <div class="single-team mb-60">
                         <div class="team-img">
-                            <img src="assets/img/gallery/blog01.png" alt="">
+                            <img src="assets/img/gallery/blog1.png" alt="">
                         </div>
                         <div class="team-caption">
-                            <h3><a href="services.html">Creative Photography</a></h3>
+                            <h3><a href="{{asset('/services')}}">Creative Photography</a></h3>
                             <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
                         </div>
                     </div>
